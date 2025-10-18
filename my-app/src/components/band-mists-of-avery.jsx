@@ -26,7 +26,6 @@ import snowFallNMClip from "../assets/audio/10_Snowfall_sgl_clip.mp3"
 
 //Audio Player Component
 import AudioPlayer from "./AudioPlayer.jsx";
-import Carousel from 'react-bootstrap/Carousel';
 
 export function Body() {
     const [count, setCount] = useState(0)
