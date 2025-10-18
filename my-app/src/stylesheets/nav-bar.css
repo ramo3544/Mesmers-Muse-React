@@ -1,0 +1,12 @@
+#nav-bar{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+#nav-bar-logo {
+    height: 100px;
+    margin: 5px 20px;
+    float: left;
+}

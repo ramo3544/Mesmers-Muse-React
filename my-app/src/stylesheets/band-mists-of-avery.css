@@ -1,0 +1,45 @@
+#band-body {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 85px;
+    padding-bottom: 140px;
+    box-sizing: border-box;
+    /*z-index: 1;*/
+}
+
+.band-background {
+    position: relative;
+    min-height: 100vh;
+    min-width: 100vw;
+    z-index: 0;
+    object-fit: cover;
+}
+
+.band-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/mists-of-avery-band-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(0.8);
+    z-index: -2;
+}
+
+.band-background::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: brightness(0.6);
+}
