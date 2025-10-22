@@ -20,7 +20,7 @@ export function NavBar() {
 
     return (
         <>
-            <div>
+            <div id='nav-bar'>
                 <nav className="navbar bg-body-tertiary fixed-top" data-bs-theme='dark'>
                     <div className="container-fluid">
                         <div className="container-logo">

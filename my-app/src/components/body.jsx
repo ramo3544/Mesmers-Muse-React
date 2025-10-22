@@ -55,14 +55,14 @@ export function Body() {
                                     exclusion
                                     of all else or so as to transfix them.”</em><br/><br/>
                             </p>
-                            <h4 className='h4 text-white'>Our Mission</h4>
+                            <h4 id='get-connected' className='h4 text-white'>Our Mission</h4>
                             <p className='fs-5 text-white'>
                                 Mesmer’s Muse Records mission is to encourage and enable music artists to pursue, to
                                 perfect, and to fully realize their <em>muse</em>.<br/><br/>
                             </p>
                             <p className='body-subheading'>Bringing Big Ideas To Life, One Muse At A Time</p>
                         </div>
-                        <div id='get-connected'>
+                        <div>
                             <h2 className='body-subheading'>Get Connected!</h2>
                             <p className='fs-5 text-white'>
                                 Join our community to share your work, collaborate with us, and stay updated on the
