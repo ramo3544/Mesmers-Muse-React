@@ -9,4 +9,5 @@
     height: 100px;
     margin: 5px 20px;
     float: left;
+    max-width: 50vh;
 }

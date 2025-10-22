@@ -6,11 +6,13 @@
 }
 
 .card-img {
-    max-width: 20rem;
+    max-width: 13rem;
     max-height: 8rem;
     min-height: 8rem;
     height: auto;
     border-radius: 0.5rem;
+    align-self: center;
+    padding-top: .5rem;
 
 }
 
@@ -51,3 +53,7 @@ input[type="range"] {
     margin: 5px auto 10px auto;
 
 }
+
+/*.song-title {*/
+/*    text-end-overflow: ellipsis;*/
+/*}*/

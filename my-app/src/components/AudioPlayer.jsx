@@ -63,34 +63,37 @@ const AudioPlayer = ({audioSrc, coverArtImg, songName, description}) => {
     }, []);
 
     return (
-        <div className='card mx-auto d-block pt-5 w-auto'>
-            <img className='card-img-top' src={coverArtImg} alt='Cover Image'/>
+        <div className='card'>
+            <img className='card-img-top card-img' src={coverArtImg} alt='Cover Image'/>
             <div className='card-body'>
-                <h5 className='card-title'>{songName}</h5>
-                <p className='card-text'>{description}</p>
-            </div>
-            {/* Input Range for seeking within the audio track. */}
-            <input
-                type='range'
-                min='0'
-                max={duration}
-                value={currentTime}
-                onChange={handleSeek}
-            />
-            {/* The <audio> element to play the audio track. */}
-            <audio ref={audioRef} src={audioSrc}/>
+                <h5 className='card-title fs-6 d-none d-sm-inline-flex'>{songName}</h5>
 
-            {/* Display current time and total duration of the audio track. */}
-            <div className='track-duration'>
-                <p>{formatDuration(currentTime)}</p>
-                <p>{formatDuration(duration)}</p>
-            </div>
-            {/* Play/Pause button to control audio playback. */}
-            <button className='play-button' onClick={handlePlayPause}>
+                {/* Input Range for seeking within the audio track. */}
+                <div className='ps-2 pe-2'>
+                    <input
+                        type='range'
+                        min='0'
+                        max={duration}
+                        value={currentTime}
+                        onChange={handleSeek}
+                    />
+                    {/* The <audio> element to play the audio track. */}
+                    <audio ref={audioRef} src={audioSrc}/>
+
+                    {/* Display current time and total duration of the audio track. */}
+                    <div className='track-duration'>
+                        <p>{formatDuration(currentTime)}</p>
+                        <p>{formatDuration(duration)}</p>
+                    </div>
+                    {/* Play/Pause button to control audio playback. */}
+                    <button className='play-button' onClick={handlePlayPause}>
                 <span>
                     {isPlaying ? <i className="bi bi-pause-fill"></i> : <i className="bi bi-play-fill"></i>}
                 </span>
-            </button>
+                    </button>
+                    <p className='card-text'>{description}</p>
+                </div>
+            </div>
         </div>
     )
 }

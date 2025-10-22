@@ -64,7 +64,7 @@
 }
 .body-text {
     font-family: 'Arial', sans-serif;
-    font-size: 1.2em;
+    font-size: calc(1.2em + 0.2vw);
     text-align: center;
     color: #ffffff;
     margin: 20px auto;
