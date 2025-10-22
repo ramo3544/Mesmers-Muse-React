@@ -88,7 +88,7 @@ const AudioPlayer = ({audioSrc, coverArtImg, songName, description}) => {
             {/* Play/Pause button to control audio playback. */}
             <button className='play-button' onClick={handlePlayPause}>
                 <span>
-                    {isPlaying ? <i class="bi bi-pause-fill"></i> : <i className="bi bi-play-fill"></i>}
+                    {isPlaying ? <i className="bi bi-pause-fill"></i> : <i className="bi bi-play-fill"></i>}
                 </span>
             </button>
         </div>
