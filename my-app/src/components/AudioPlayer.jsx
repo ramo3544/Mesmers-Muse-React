@@ -91,7 +91,6 @@ const AudioPlayer = ({audioSrc, coverArtImg, songName, description}) => {
                     {isPlaying ? <i className="bi bi-pause-fill"></i> : <i className="bi bi-play-fill"></i>}
                 </span>
                     </button>
-                    <p className='card-text'>{description}</p>
                 </div>
             </div>
         </div>
