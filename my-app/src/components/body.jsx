@@ -2,8 +2,10 @@ import { useState } from 'react'
 import '../stylesheets/body.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
-import mistsOfAveryBandCover from '../assets/mists-of-avery-band-image.jpg';
+import suiteAnnusExpectandiAlbumCover from '../assets/album-photos/suite-annus-expectandi-album-cover.jpg';
 import { HashLink as Link} from "react-router-hash-link";
+import 'bootstrap-icons/font/bootstrap-icons.css'
+
 //https://getbootstrap.com/docs/5.3/components/carousel
 //https://getbootstrap.com/docs/5.3/components/collapse
 //https://getbootstrap.com/docs/5.3/components/accordion
@@ -18,17 +20,14 @@ export function Body() {
                 <div className="container-lg text-center">
                     <div id='about-us' className="mt-4">
                         <div className="col">
-                            <h1 className='body-heading'>Mesmer’s Muse Records</h1>
-                            <p className='body-subheading'>Bringing Big Ideas To Life, One Muse At A Time</p>
+                            <h1 className='body-heading pt-5'>Mesmer’s Muse Records</h1>
                         </div>
                     </div>
                     <div className="row mt-4">
                         <div>
-                            <h2 className='body-subheading'>About Us</h2>
-                            <p className='body-text'>
-                                Mesmer’s Muse Records mission is to encourage and enable music artists to pursue, to
-                                perfect, and to fully realize their <em>muse</em>.<br/><br/>
-
+                            <h2 className='body-subheading pb-3'>About Us</h2>
+                            <h3 className='h3 text-white'>What's in a name?</h3>
+                            <p className='fs-5 text-white'>
                                 Most people have heard or used the word “mesmerize” from time to time. However, many do
                                 not realize that the term emerged from the ideas and practices of Franz Anton Mesmer
                                 (1734-1815),
@@ -45,29 +44,44 @@ export function Body() {
                                 Instead of keeping his “big idea” to himself and dooming it to shrivel up in a dusty
                                 cabinet somewhere, Mesmer dared to cultivate it, to pursue it, and to allow his belief
                                 in this energy
-                                (his “muse”) to become the all-consuming driving force of his entire life. (Ironically,
-                                the word “mesmerize” has come to be defined as “to hold the attention of a person to the
-                                exclusion
-                                of all else or so as to transfix them.”)<br/><br/>
+                                (his “muse”) to become the all-consuming driving force of his entire life.
                             </p>
+                            <p className='fs-5 text-warning'>
+                                Ironically,
+                                the word <em>“mesmerize”</em> has come to be defined as:
+                            </p>
+                            <p className='fs-5 blockquote text-warning'>
+                                <em>“to hold the attention of a person to the
+                                    exclusion
+                                    of all else or so as to transfix them.”</em><br/><br/>
+                            </p>
+                            <h4 className='h4 text-white'>Our Mission</h4>
+                            <p className='fs-5 text-white'>
+                                Mesmer’s Muse Records mission is to encourage and enable music artists to pursue, to
+                                perfect, and to fully realize their <em>muse</em>.<br/><br/>
+                            </p>
+                            <p className='body-subheading'>Bringing Big Ideas To Life, One Muse At A Time</p>
                         </div>
                         <div id='get-connected'>
                             <h2 className='body-subheading'>Get Connected!</h2>
-                            <p className='body-text'>
+                            <p className='fs-5 text-white'>
                                 Join our community to share your work, collaborate with us, and stay updated on the
                                 latest updates in our growing community.
                             </p>
-                            <p className='body-text'>Follow us on social media for information on new content and
+                            <p className='fs-4 text-info'>Follow us on social media for information on new content and
                                 events.</p>
-                            <a href='https://www.facebook.com/mesmersmuse' target="_blank" rel="noopener noreferrer"
-                               className='btn btn-primary m-2'>FACEBOOK</a>
-                            <a href='https://www.instagram.com/mesmersmuse/' target="_blank" rel="noopener noreferrer"
-                               className='btn btn-primary m-2'>INSTAGRAM</a>
-                            <a href='https://www.twitter.com/mesmersmuse' target="_blank" rel="noopener noreferrer"
-                               className='btn btn-primary m-2'>TWITTER</a>
-                            <a href='mailto:info@mesmersmuse.com' className='btn btn-primary m-2'>CONTACT US</a>
+                            <button type='button' className='btn btn-primary m-2'>
+                                <i href='#' className="bi bi-facebook h1"></i>
+                            </button>
+                            <button type='button' className='btn btn-secondary m-2'>
+                                <i href='#' className="bi bi-instagram h1"></i>
+                            </button>
+                            <button type='button' className='btn btn-dark m-2'>
+                                <i href='#' className="bi bi-twitter-x h1"></i>
+                            </button>
+                            <a href='mailto:info@mesmersmuse.com' className='btn btn-primary btn-lg m-2'>CONTACT US</a>
                         </div>
-                        <h2 className='body-subheading pt-5 pb-3'>New Releases!</h2>
+                        <h2 className='body-subheading pt-5 pb-3'>New Release!</h2>
                         <div id="carouselExampleCaptions" className="carousel slide">
                             <div className="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
@@ -77,7 +91,7 @@ export function Body() {
                             <div className="carousel-inner">
                                 <Link to='/mists-of-avery' className="text-decoration-none text-dark">
                                     <div className="carousel-item active">
-                                        <img src={mistsOfAveryBandCover} className="mx-auto img-thumbnail d-block w-50" alt="Mists of Avery Band Cover"/>
+                                        <img src={suiteAnnusExpectandiAlbumCover} className="mx-auto img-thumbnail d-block w-75 pb-2" alt="Mists of Avery Band Cover"/>
                                         <div className="carousel-caption d-none d-md-block">
                                             <h5>Mists of Avery</h5>
                                         </div>

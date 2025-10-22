@@ -2,7 +2,7 @@ import React, {useEffect, useRef, useState} from "react";
 import '../stylesheets/AudioPlayer.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 
-const AudioPlayer = ({audioSrc, coverArtImg, songName}) => {
+const AudioPlayer = ({audioSrc, coverArtImg, songName, description}) => {
 
     //State variables to manage the player's status and current time.
     const[isPlaying, setIsPlaying] = useState(false);
@@ -63,11 +63,12 @@ const AudioPlayer = ({audioSrc, coverArtImg, songName}) => {
     }, []);
 
     return (
-        <div className='player-card mx-auto d-block pt-5 w-auto'>
-            <div>
-                <h6>{songName}</h6>
+        <div className='card mx-auto d-block pt-5 w-auto'>
+            <img className='card-img-top' src={coverArtImg} alt='Cover Image'/>
+            <div className='card-body'>
+                <h5 className='card-title'>{songName}</h5>
+                <p className='card-text'>{description}</p>
             </div>
-            <img className='card-img' src={coverArtImg} alt='Cover Image'/>
             {/* Input Range for seeking within the audio track. */}
             <input
                 type='range'

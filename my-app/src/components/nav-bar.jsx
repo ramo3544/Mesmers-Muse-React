@@ -6,6 +6,15 @@ import logo from '../assets/MMR_logo_colorBG.png'
 import { HashLink as Link } from 'react-router-hash-link';
 //https://getbootstrap.com/docs/5.3/components/navbar/#offcanvas
 
+function collapseNavbar() {
+    const navbarToggler = document.querySelector('.navbar-toggler');
+    const offcanvasNavbar = document.getElementById('offcanvasNavbar');
+
+    if (offcanvasNavbar.classList.contains('show')) {
+        navbarToggler.click();
+    }
+}
+
 export function NavBar() {
     const [count, setCount] = useState(0)
 
@@ -16,8 +25,7 @@ export function NavBar() {
                     <div className="container-fluid">
                         <div className="container-logo">
                             <a className="navbar-brand" href="#">
-                                <img id='nav-bar-logo' className='img-fluid' src={logo} alt="Mesmer's Muse" width=""
-                                     height="110"/>
+                                <img id='nav-bar-logo' className='img-fixed' src={logo} alt="Mesmer's Muse"/>
                             </a>
                         </div>
                         <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas"
@@ -34,10 +42,10 @@ export function NavBar() {
                             </div>
                             <div className="offcanvas-body">
                                 <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
-                                    <li className="nav-item">
+                                    <li className="nav-item" onClick={collapseNavbar}>
                                         <Link className="nav-link active" aria-current="page" to='/#about-us'>About Us</Link>
                                     </li>
-                                    <li className="nav-item">
+                                    <li className="nav-item" onClick={collapseNavbar}>
                                         <Link className="nav-link" to='/#get-connected'>Get Connected!</Link>
                                     </li>
                                     <li className="nav-item dropdown">
@@ -46,7 +54,7 @@ export function NavBar() {
                                             Artists Label
                                         </Link>
                                         <ul className="dropdown-menu">
-                                            <li><Link className="dropdown-item" to='/mists-of-avery'>Mists Of Avery</Link></li>
+                                            <li onClick={collapseNavbar}><Link className="dropdown-item" to='/mists-of-avery'>Mists Of Avery</Link></li>
                                             <li>
                                                 <hr className="dropdown-divider"/>
                                             </li>
