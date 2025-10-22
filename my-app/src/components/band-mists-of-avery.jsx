@@ -51,7 +51,7 @@ export function Body() {
                     </p>
                     <div className='container text-center'>
                         <div className='align-items-start'>
-                            <div className='row'>
+                            <div className='row justify-content-center'>
                                 <div className='col pb-5'>
                                     <AudioPlayer songName='Prelude Tempora Mutantur' coverArtImg={albumCover} audioSrc={prelude_clip} />
                                 </div>
