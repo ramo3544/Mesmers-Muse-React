@@ -49,212 +49,50 @@ export function Body() {
                         It is a refreshing stroll through the seasons of the year using reflective music and, in some cases, the sounds of nature, to invite the listener to join the journey.
                         The album cover features the ancient Latin adage, “Tempora mutantur, nos et mutamur in illis,” which translates as “Seasons change, and we also change with them.”
                     </p>
-                    <div className='container text-center'>
+                    <h3 className='body-subheading pb-lg-5'>THE SONGS OF NATURE</h3>
+                    <p className='fs-5 text-white pb-5'>
+                        “Prelude: Tempora Mutantur” features Celtic-influenced melodies and instrumentation including mandolin, drone guitar, and percussion to depict the inspiring grandeur of the mountains.
+                        “Welcome Spring” employs a four-note chord provided by a set of backyard windchimes, adding and then removing layer upon layer based on those four notes.
+                        “Cloudburst in Elk Park” and “Full Bloom: Crossnore” use natural sounds of a thunderstorm and bird songs, respectively, as a canvas upon which the songs are painted.
+                        “Sultry August Night” features the counter-rhythmic ostinato of Appalachian cicadas and tree frogs to underpin a lush callback to jazz combos of the late 50’s and early 60’s.
+                        “Fall Arrives / Fall Leaves” offers the sounds of wind rustling though falling leaves to remind the listener of the beauty and melancholy of the trees’ last burst of glory for the year.
+                        “Christmas in Newland / Icy Branches” is nostalgic and childlike by design, inviting the listener to recall that “best snowfall ever” when they were a child, with all its wonder, delight, and joy.
+                        The journey concludes with a walk through an ice-glazed forest, finishing with the subtle windchimes’ reminder that the cycle will soon begin anew.
+                    </p>
+                    <div className='container-fluid text-center'>
                         <div className='align-items-start'>
                             <div className='row justify-content-center'>
-                                <div className='col pb-5'>
+                                <div className='col-md-5 pb-5'>
                                     <AudioPlayer songName='Prelude Tempora Mutantur' coverArtImg={albumCover} audioSrc={prelude_clip}/>
-                                    <div className="accordion">
-                                        <div className="accordion-item">
-                                            <h2 className="accordion-header">
-                                                <button className="accordion-button" type="button"
-                                                        data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                        aria-expanded="true" aria-controls="collapseOne">
-                                                    Description
-                                                </button>
-                                            </h2>
-                                            <div id="collapseOne" className="accordion-collapse collapse"
-                                                 data-bs-parent="#accordionExample">
-                                                <div className="accordion-body">
-                                                    “Prelude: Tempora Mutantur” features Celtic-influenced melodies and instrumentation including mandolin, drone guitar, and percussion to depict the inspiring grandeur of the mountains.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
-                                    <div className='col pb-5'>
-                                        <AudioPlayer songName='Welcome Spring' coverArtImg={welcomeSpring} audioSrc={welcomeClip}/>
-                                        <div className="accordion">
-                                            <div className="accordion-item">
-                                                <h2 className="accordion-header">
-                                                    <button className="accordion-button" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                            aria-expanded="true" aria-controls="collapseTwo">
-                                                        Description
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseTwo" className="accordion-collapse collapse"
-                                                     data-bs-parent="#accordionExample">
-                                                    <div className="accordion-body">
-                                                        “Welcome Spring” employs a four-note chord provided by a set of backyard windchimes, adding and then removing layer upon layer based on those four notes.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className='col pb-5'>
-                                        <AudioPlayer songName='Cloud Burst From Elk Park' coverArtImg={cloudBurstFromElkPark} audioSrc={cloudBurstClip}/>
-                                        <div className="accordion">
-                                            <div className="accordion-item">
-                                                <h2 className="accordion-header">
-                                                    <button className="accordion-button" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                                            aria-expanded="true" aria-controls="collapseThree">
-                                                        Description
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseThree" className="accordion-collapse collapse"
-                                                     data-bs-parent="#accordionExample">
-                                                    <div className="accordion-body">
-                                                        “Cloudburst in Elk Park” and “Full Bloom: Crossnore” use natural sounds of a thunderstorm and bird songs, respectively, as a canvas upon which the songs are painted.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className='col pb-5'>
-                                        <AudioPlayer songName='Full Bloom Crossnore' coverArtImg={fullBloomCrossnore} audioSrc={fullBloomClip}/>
-                                        <div className="accordion">
-                                            <div className="accordion-item">
-                                                <h2 className="accordion-header">
-                                                    <button className="accordion-button" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                                            aria-expanded="true" aria-controls="collapseFour">
-                                                        Description
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseFour" className="accordion-collapse collapse"
-                                                     data-bs-parent="#accordionExample">
-                                                    <div className="accordion-body">
-                                                        “Cloudburst in Elk Park” and “Full Bloom: Crossnore” use natural sounds of a thunderstorm and bird songs, respectively, as a canvas upon which the songs are painted.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className='col pb-5'>
-                                        <AudioPlayer songName='Sultry August Night' coverArtImg={sultryAugustNight} audioSrc={sultryAugustNightClip}/>
-                                        <div className="accordion">
-                                            <div className="accordion-item">
-                                                <h2 className="accordion-header">
-                                                    <button className="accordion-button" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#collapseFive"
-                                                            aria-expanded="true" aria-controls="collapseFive">
-                                                        Description
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseFive" className="accordion-collapse collapse"
-                                                     data-bs-parent="#accordionExample">
-                                                    <div className="accordion-body">
-                                                        “Sultry August Night” features the counter-rhythmic ostinato of Appalachian cicadas and tree frogs to underpin a lush callback to jazz combos of the late 50’s and early 60’s.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div className='col-md-5 pb-5'>
+                                    <AudioPlayer songName='Welcome Spring' coverArtImg={welcomeSpring} audioSrc={welcomeClip}/>
+                                </div>
+                                <div className='col-md-5 pb-5'>
+                                    <AudioPlayer songName='Cloud Burst From Elk Park' coverArtImg={cloudBurstFromElkPark} audioSrc={cloudBurstClip}/>
+                                </div>
+                                <div className='col-md-5 pb-5'>
+                                    <AudioPlayer songName='Full Bloom Crossnore' coverArtImg={fullBloomCrossnore} audioSrc={fullBloomClip}/>
+                                </div>
+                                <div className='col-md-5 pb-5'>
+                                    <AudioPlayer songName='Sultry August Night' coverArtImg={sultryAugustNight} audioSrc={sultryAugustNightClip}/>
+                                </div>
                                 </div>
                                 <div className='row justify-content-center'>
-                                    <div className='col pb-5'>
-                                        <AudioPlayer songName='Fall Arrives Fall Leaves' coverArtImg={fallArrivesFallLeaves} audioSrc={fallArrivesClip}/>
-                                        <div className="accordion">
-                                            <div className="accordion-item">
-                                                <h2 className="accordion-header">
-                                                    <button className="accordion-button" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#collapseSix"
-                                                            aria-expanded="true" aria-controls="collapseSix">
-                                                        Description
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseSix" className="accordion-collapse collapse"
-                                                     data-bs-parent="#accordionExample">
-                                                    <div className="accordion-body">
-                                                        “Fall Arrives / Fall Leaves” offers the sounds of wind rustling though falling leaves to remind the listener of the beauty and melancholy of the trees’ last burst of glory for the year.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className='col pb-5'>
-                                        <AudioPlayer songName='Snowfall In Newland' coverArtImg={snowfallInNewlandNew} audioSrc={snowFallClip}/>
-                                        <div className="accordion">
-                                            <div className="accordion-item">
-                                                <h2 className="accordion-header">
-                                                    <button className="accordion-button" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#collapseSeven"
-                                                            aria-expanded="true" aria-controls="collapseSeven">
-                                                        Description
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseSeven" className="accordion-collapse collapse"
-                                                     data-bs-parent="#accordionExample">
-                                                    <div className="accordion-body">
-                                                        “Christmas in Newland / Icy Branches” is nostalgic and childlike by design, inviting the listener to recall that “best snowfall ever” when they were a child, with all its wonder, delight, and joy.
-                                                        The journey concludes with a walk through an ice-glazed forest, finishing with the subtle windchimes’ reminder that the cycle will soon begin anew.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className='col pb-5'>
-                                        <AudioPlayer songName='Full Bloom Crossnore (Music Only)' coverArtImg={fullBloomCrossnore} audioSrc={fullBloomNMClip}/>
-                                        <div className="accordion">
-                                            <div className="accordion-item">
-                                                <h2 className="accordion-header">
-                                                    <button className="accordion-button" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#collapseEight"
-                                                            aria-expanded="true" aria-controls="collapseEight">
-                                                        Description
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseEight" className="accordion-collapse collapse"
-                                                     data-bs-parent="#accordionExample">
-                                                    <div className="accordion-body">
-                                                        “Cloudburst in Elk Park” and “Full Bloom: Crossnore” use natural sounds of a thunderstorm and bird songs, respectively, as a canvas upon which the songs are painted.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className='col pb-5'>
-                                        <AudioPlayer songName='Sultry August Night (Music Only)' coverArtImg={sultryAugustNight} audioSrc={sultryAugustNMClip}/>
-                                        <div className="accordion">
-                                            <div className="accordion-item">
-                                                <h2 className="accordion-header">
-                                                    <button className="accordion-button" type="button"
-                                                            data-bs-toggle="collapse" data-bs-target="#collapseNine"
-                                                            aria-expanded="true" aria-controls="collapseNine">
-                                                        Description
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseNine" className="accordion-collapse collapse"
-                                                     data-bs-parent="#accordionExample">
-                                                    <div className="accordion-body">
-                                                        “Sultry August Night” features the counter-rhythmic ostinato of Appalachian cicadas and tree frogs to underpin a lush callback to jazz combos of the late 50’s and early 60’s.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                <div className='col-md-5 pb-5'>
+                                    <AudioPlayer songName='Fall Arrives Fall Leaves' coverArtImg={fallArrivesFallLeaves} audioSrc={fallArrivesClip}/>
                                 </div>
-                                <div className='col pb-5'>
+                                <div className='col-md-5 pb-5'>
+                                    <AudioPlayer songName='Snowfall In Newland' coverArtImg={snowfallInNewlandNew} audioSrc={snowFallClip}/>
+                                </div>
+                                <div className='col-md-5 pb-5'>
+                                    <AudioPlayer songName='Full Bloom Crossnore (Music Only)' coverArtImg={fullBloomCrossnore} audioSrc={fullBloomNMClip}/>
+                                </div>
+                                <div className='col-md-5 pb-5'>
+                                    <AudioPlayer songName='Sultry August Night (Music Only)' coverArtImg={sultryAugustNight} audioSrc={sultryAugustNMClip}/>
+                                </div>
+                                <div className='col-md-5 pb-5'>
                                     <AudioPlayer songName='Snowfall In Newland (Music Only)' coverArtImg={snowfallInNewlandNew} audioSrc={snowFallNMClip}/>
-                                    <div className="accordion">
-                                        <div className="accordion-item">
-                                            <h2 className="accordion-header">
-                                                <button className="accordion-button" type="button"
-                                                        data-bs-toggle="collapse" data-bs-target="#collapseTen"
-                                                        aria-expanded="true" aria-controls="collapseTen">
-                                                    Description
-                                                </button>
-                                            </h2>
-                                            <div id="collapseTen" className="accordion-collapse collapse"
-                                                 data-bs-parent="#accordionExample">
-                                                <div className="accordion-body">
-                                                    “Christmas in Newland / Icy Branches” is nostalgic and childlike by design, inviting the listener to recall that “best snowfall ever” when they were a child, with all its wonder, delight, and joy.
-                                                    The journey concludes with a walk through an ice-glazed forest, finishing with the subtle windchimes’ reminder that the cycle will soon begin anew.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
