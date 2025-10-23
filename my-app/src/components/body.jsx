@@ -17,7 +17,7 @@ export function Body() {
     return (
         <>
             <div id="body" className='body-background container-fluid d-flex align-items-top min-vh-100'>
-                <div className="container-lg text-center">
+                <div id='mesmers-muse-section' className="container-lg text-center">
                     <div id='about-us' className="mt-4">
                         <div className="col">
                             <h1 className='body-heading pt-5'>Mesmer’s Muse Records</h1>
@@ -39,8 +39,7 @@ export function Body() {
                                 creation of a
                                 device he called a <em>“baquet,”</em> which allowed small groups of people to achieve
                                 balance of their “energies” together at once. (Mesmer’s drawing of this device is
-                                featured in our logo.)<br/>
-
+                                featured in our logo.)
                                 Instead of keeping his “big idea” to himself and dooming it to shrivel up in a dusty
                                 cabinet somewhere, Mesmer dared to cultivate it, to pursue it, and to allow his belief
                                 in this energy
@@ -89,7 +88,7 @@ export function Body() {
                                 </button>
                             </div>
                             <div className="carousel-inner">
-                                <Link to='/mists-of-avery' className="text-decoration-none text-dark">
+                                <Link to='/mists-of-avery/#mists-of-avery-band-section' className="text-decoration-none text-dark">
                                     <div className="carousel-item active">
                                         <img src={suiteAnnusExpectandiAlbumCover} className="mx-auto img-thumbnail d-block w-75 pb-2" alt="Mists of Avery Band Cover"/>
                                         <div className="carousel-caption d-none d-md-block">

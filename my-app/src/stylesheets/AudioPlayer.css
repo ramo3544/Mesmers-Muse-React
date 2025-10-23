@@ -1,12 +1,12 @@
 .player-card {
-    width: 30rem;
+    width: 20rem;
     background-color: #f1f4f9;
     border-radius: 0.5rem;
     padding: 1rem;
 }
 
 .card-img {
-    max-width: 18rem;
+    max-width: 10rem;
     max-height: 8rem;
     min-height: 8rem;
     height: auto;

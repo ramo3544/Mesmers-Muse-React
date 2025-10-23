@@ -54,7 +54,7 @@ export function NavBar() {
                                             Artists Label
                                         </Link>
                                         <ul className="dropdown-menu">
-                                            <li onClick={collapseNavbar}><Link className="dropdown-item" to='/mists-of-avery'>Mists Of Avery</Link></li>
+                                            <li onClick={collapseNavbar}><Link className="dropdown-item" to='/mists-of-avery/#mists-of-avery-band-section'>Mists Of Avery</Link></li>
                                             <li>
                                                 <hr className="dropdown-divider"/>
                                             </li>

@@ -32,9 +32,9 @@ export function Body() {
 
     return (
         <>
-            <div id="band-body" className='band-background container-fluid d-flex align-items-top min-vh-100'>
+            <div id="mists-of-avery-band-section" className='band-background container-fluid d-flex align-items-top min-vh-100'>
                 <div className="container-lg text-center">
-                    <h2 className='body-subheading mt-4'>MISTS OF AVERY</h2>
+                    <h2 className='body-subheading mt-5'>MISTS OF AVERY</h2>
                     <p className='fs-5 text-white'>
                         Our band name refers to our love for Avery County, located in the mountains of western North Carolina, our spiritual (and soon to be our physical) home.
                         Avery County features rugged mountain terrain, including Grandfather Mountain, and has the highest average elevation of any U.S. county east of the Mississippi River.
@@ -49,7 +49,6 @@ export function Body() {
                         It is a refreshing stroll through the seasons of the year using reflective music and, in some cases, the sounds of nature, to invite the listener to join the journey.
                         The album cover features the ancient Latin adage, “Tempora mutantur, nos et mutamur in illis,” which translates as “Seasons change, and we also change with them.”
                     </p>
-                    <h3 className='body-subheading pb-lg-5'>THE SONGS OF NATURE</h3>
                     <p className='fs-5 text-white pb-5'>
                         “Prelude: Tempora Mutantur” features Celtic-influenced melodies and instrumentation including mandolin, drone guitar, and percussion to depict the inspiring grandeur of the mountains.
                         “Welcome Spring” employs a four-note chord provided by a set of backyard windchimes, adding and then removing layer upon layer based on those four notes.
@@ -62,37 +61,37 @@ export function Body() {
                     <div className='container-fluid text-center'>
                         <div className='align-items-start'>
                             <div className='row justify-content-center'>
-                                <div className='col-md-5 pb-5'>
+                                <div className='col-lg-2 pb-5'>
                                     <AudioPlayer songName='Prelude Tempora Mutantur' coverArtImg={albumCover} audioSrc={prelude_clip}/>
                                 </div>
-                                <div className='col-md-5 pb-5'>
+                                <div className='col-lg-2 pb-5'>
                                     <AudioPlayer songName='Welcome Spring' coverArtImg={welcomeSpring} audioSrc={welcomeClip}/>
                                 </div>
-                                <div className='col-md-5 pb-5'>
-                                    <AudioPlayer songName='Cloud Burst From Elk Park' coverArtImg={cloudBurstFromElkPark} audioSrc={cloudBurstClip}/>
+                                <div className='col-lg-2 pb-5'>
+                                    <AudioPlayer songName='Cloudburst In Elk Park' coverArtImg={cloudBurstFromElkPark} audioSrc={cloudBurstClip}/>
                                 </div>
-                                <div className='col-md-5 pb-5'>
-                                    <AudioPlayer songName='Full Bloom Crossnore' coverArtImg={fullBloomCrossnore} audioSrc={fullBloomClip}/>
+                                <div className='col-lg-2 pb-5'>
+                                    <AudioPlayer songName='Full Bloom: Crossnore' coverArtImg={fullBloomCrossnore} audioSrc={fullBloomClip}/>
                                 </div>
-                                <div className='col-md-5 pb-5'>
+                                <div className='col-lg-2 pb-5'>
                                     <AudioPlayer songName='Sultry August Night' coverArtImg={sultryAugustNight} audioSrc={sultryAugustNightClip}/>
                                 </div>
                                 </div>
                                 <div className='row justify-content-center'>
-                                <div className='col-md-5 pb-5'>
-                                    <AudioPlayer songName='Fall Arrives Fall Leaves' coverArtImg={fallArrivesFallLeaves} audioSrc={fallArrivesClip}/>
+                                <div className='col-lg-2 pb-5'>
+                                    <AudioPlayer songName='Fall Arrives / Fall Leaves' coverArtImg={fallArrivesFallLeaves} audioSrc={fallArrivesClip}/>
                                 </div>
-                                <div className='col-md-5 pb-5'>
-                                    <AudioPlayer songName='Snowfall In Newland' coverArtImg={snowfallInNewlandNew} audioSrc={snowFallClip}/>
+                                <div className='col-lg-2 pb-5'>
+                                    <AudioPlayer songName='Snowfall In Newland / Icy Branches' coverArtImg={snowfallInNewlandNew} audioSrc={snowFallClip}/>
                                 </div>
-                                <div className='col-md-5 pb-5'>
-                                    <AudioPlayer songName='Full Bloom Crossnore (Music Only)' coverArtImg={fullBloomCrossnore} audioSrc={fullBloomNMClip}/>
+                                <div className='col-lg-2 pb-5'>
+                                    <AudioPlayer songName='Full Bloom: Crossnore [music only]' coverArtImg={fullBloomCrossnore} audioSrc={fullBloomNMClip}/>
                                 </div>
-                                <div className='col-md-5 pb-5'>
-                                    <AudioPlayer songName='Sultry August Night (Music Only)' coverArtImg={sultryAugustNight} audioSrc={sultryAugustNMClip}/>
+                                <div className='col-lg-2 pb-5'>
+                                    <AudioPlayer songName='Sultry August Night [music only]' coverArtImg={sultryAugustNight} audioSrc={sultryAugustNMClip}/>
                                 </div>
-                                <div className='col-md-5 pb-5'>
-                                    <AudioPlayer songName='Snowfall In Newland (Music Only)' coverArtImg={snowfallInNewlandNew} audioSrc={snowFallNMClip}/>
+                                <div className='col-lg-2 pb-5'>
+                                    <AudioPlayer songName='Snowfall In Newland [single]' coverArtImg={snowfallInNewlandNew} audioSrc={snowFallNMClip}/>
                                 </div>
                             </div>
                         </div>
