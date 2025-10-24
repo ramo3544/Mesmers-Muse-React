@@ -2,6 +2,7 @@ import { useState } from 'react'
 import '../stylesheets/band-mists-of-avery.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
+import 'bootstrap-icons/font/bootstrap-icons.css'
 
 // Album cover and photos
 import albumCover from "../assets/album-photos/suite-annus-expectandi-album-cover.jpg";
@@ -11,6 +12,7 @@ import fullBloomCrossnore from "../assets/album-photos/full-bloom-album-photo.JP
 import sultryAugustNight from "../assets/album-photos/sultry-august-night.jpg";
 import fallArrivesFallLeaves from "../assets/album-photos/fall-arrives.jpg";
 import snowfallInNewlandNew from "../assets/album-photos/snowfall-in-newland.jpg";
+import tidalLogo from "../assets/tidal-icon-transparent.png";
 
 //Audio clips
 import prelude_clip from "../assets/audio/1_Prelude_clip.mp3";
@@ -62,7 +64,7 @@ export function Body() {
                         <div className='align-items-start'>
                             <div className='row justify-content-center'>
                                 <div className='col-lg-2 pb-5'>
-                                    <AudioPlayer songName='Prelude Tempora Mutantur' coverArtImg={albumCover} audioSrc={prelude_clip}/>
+                                    <AudioPlayer songName='Prelude: Tempora Mutantur' coverArtImg={albumCover} audioSrc={prelude_clip}/>
                                 </div>
                                 <div className='col-lg-2 pb-5'>
                                     <AudioPlayer songName='Welcome Spring' coverArtImg={welcomeSpring} audioSrc={welcomeClip}/>
@@ -95,6 +97,21 @@ export function Body() {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div className='container-fluid text-center'>
+                        <h4 className='body-subheading h1 text-white mt-5 pb-3'>Available On:</h4>
+                        <button type='button' className='btn btn-success m-2 opacity-100' disabled={true}>
+                            <i className="bi bi-spotify h1"></i>
+                        </button>
+                        <button type='button' className='btn btn-light m-2 opacity-100' disabled={true}>
+                            <i className="bi bi-apple h1"></i>
+                        </button>
+                        <button type='button' className='btn btn-info m-2 opacity-100' disabled={true}>
+                            <i className="bi bi-amazon h1"></i>
+                        </button>
+                        <button type='button' className='btn btn-secondary m-2 opacity-100' disabled={true}>
+                            <img alt='tidal-logo' width='48' height='48' src={tidalLogo}></img>
+                        </button>
                     </div>
                 </div>
             </div>

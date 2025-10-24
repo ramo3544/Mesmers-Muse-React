@@ -52,14 +52,13 @@ export function Body() {
                             <p className='fs-5 blockquote text-warning'>
                                 <em>“to hold the attention of a person to the
                                     exclusion
-                                    of all else or so as to transfix them.”</em><br/><br/>
+                                    of all else or so as to transfix them.”</em><br/>
                             </p>
-                            <h4 id='get-connected' className='h4 text-white'>Our Mission</h4>
-                            <p className='fs-5 text-white'>
-                                Mesmer’s Muse Records mission is to encourage and enable music artists to pursue, to
+                            <p id='get-connected' className='fs-5 text-white'>
+                                The mission of Mesmer’s Muse Records is to encourage and enable music artists to pursue, to
                                 perfect, and to fully realize their <em>muse</em>.<br/><br/>
                             </p>
-                            <p className='body-subheading'>Bringing Big Ideas To Life, One Muse At A Time</p>
+                            <p className='body-subheading'>Mesmer's Muse Records - Bringing Big Ideas To Life, One Muse At A Time</p>
                         </div>
                         <div>
                             <h2 className='body-subheading'>Get Connected!</h2>
@@ -76,11 +75,11 @@ export function Body() {
                                 <i href='#' className="bi bi-instagram h1"></i>
                             </button>
                             <button type='button' className='btn btn-dark m-2'>
-                                <i href='#' className="bi bi-twitter-x h1"></i>
+                                <i className="bi bi-twitter-x h1"></i>
                             </button>
                             <a href='mailto:info@mesmersmuse.com' className='btn btn-primary btn-lg m-2'>CONTACT US</a>
                         </div>
-                        <h2 className='body-subheading pt-5 pb-3'>New Release!</h2>
+                        <h2 className='h1 text-white pt-5 pb-3'>Coming 11/8/2025</h2>
                         <div id="carouselExampleCaptions" className="carousel slide">
                             <div className="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
