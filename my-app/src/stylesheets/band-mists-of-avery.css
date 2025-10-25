@@ -12,7 +12,7 @@
 
 .band-background {
     position: relative;
-    min-height: 100vh;
+    min-height: 105vh;
     min-width: 100vw;
     z-index: 0;
     object-fit: cover;
@@ -43,3 +43,17 @@
     z-index: -1;
     filter: brightness(0.6);
 }
+
+/*.tidal-button {*/
+/*    width: 3em;*/
+/*    height: 3em;*/
+/*}*/
+
+/*.tidal-image {*/
+/*    align-self: center;*/
+/*    justify-content: center;*/
+/*    padding-right: 6px;*/
+/*    width: 48px;*/
+/*    height: 48px;*/
+/*    !*margin-top: 5px;*!*/
+/*}*/

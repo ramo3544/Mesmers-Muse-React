@@ -52,7 +52,7 @@ export function Body() {
                         The album cover features the ancient Latin adage, “Tempora mutantur, nos et mutamur in illis,” which translates as “Seasons change, and we also change with them.”
                     </p>
                     <p className='fs-5 text-white pb-5'>
-                        “Prelude: Tempora Mutantur” features Celtic-influenced melodies and instrumentation including mandolin, drone guitar, and percussion to depict the inspiring grandeur of the mountains.
+                        “Prelude: Tempora Mutantur” features Celtic-influenced melodies and instruments, and percussion to convey the awe-inspiring grandeur of the mountains.
                         “Welcome Spring” employs a four-note chord provided by a set of backyard windchimes, adding and then removing layer upon layer based on those four notes.
                         “Cloudburst in Elk Park” and “Full Bloom: Crossnore” use natural sounds of a thunderstorm and bird songs, respectively, as a canvas upon which the songs are painted.
                         “Sultry August Night” features the counter-rhythmic ostinato of Appalachian cicadas and tree frogs to underpin a lush callback to jazz combos of the late 50’s and early 60’s.
@@ -99,18 +99,18 @@ export function Body() {
                         </div>
                     </div>
                     <div className='container-fluid text-center'>
-                        <h4 className='body-subheading h1 text-white mt-5 pb-3'>Available On:</h4>
-                        <button type='button' className='btn btn-success m-2 opacity-100' disabled={true}>
+                        <h2 className='body-subheading h2 text-white mt-5 pb-3'>Available On All Streaming Platforms Including:</h2>
+                        <button type='button' className='btn btn-success btn-lg m-2 opacity-100' disabled={true}>
                             <i className="bi bi-spotify h1"></i>
                         </button>
-                        <button type='button' className='btn btn-light m-2 opacity-100' disabled={true}>
+                        <button type='button' className='btn btn-light btn-lg m-2 opacity-100' disabled={true}>
                             <i className="bi bi-apple h1"></i>
                         </button>
-                        <button type='button' className='btn btn-info m-2 opacity-100' disabled={true}>
+                        <button type='button' className='btn btn-info btn-lg m-2 opacity-100' disabled={true}>
                             <i className="bi bi-amazon h1"></i>
                         </button>
                         <button type='button' className='btn btn-secondary m-2 opacity-100' disabled={true}>
-                            <img alt='tidal-logo' width='48' height='48' src={tidalLogo}></img>
+                            <img alt='tidal-logo' className='' width='40' height='50' src={tidalLogo}></img>
                         </button>
                     </div>
                 </div>

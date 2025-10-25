@@ -6,7 +6,7 @@
     overflow: hidden;
 }
 #nav-bar-logo {
-    height: 100px;
+    max-height: 12vh;
     margin: 5px 20px;
     float: left;
     max-width: 35vh;
