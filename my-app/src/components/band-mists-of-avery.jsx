@@ -52,7 +52,7 @@ export function Body() {
                         The album cover features the ancient Latin adage, “Tempora mutantur, nos et mutamur in illis,” which translates as “Seasons change, and we also change with them.”
                     </p>
                     <p className='fs-5 text-white pb-5'>
-                        “Prelude: Tempora Mutantur” features Celtic-influenced melodies and instruments, and percussion to convey the awe-inspiring grandeur of the mountains.
+                        “Prelude: Tempora Mutantur” features Celtic-influenced melodies, instruments, and percussion to convey the awe-inspiring grandeur of the mountains.
                         “Welcome Spring” employs a four-note chord provided by a set of backyard windchimes, adding and then removing layer upon layer based on those four notes.
                         “Cloudburst in Elk Park” and “Full Bloom: Crossnore” use natural sounds of a thunderstorm and bird songs, respectively, as a canvas upon which the songs are painted.
                         “Sultry August Night” features the counter-rhythmic ostinato of Appalachian cicadas and tree frogs to underpin a lush callback to jazz combos of the late 50’s and early 60’s.

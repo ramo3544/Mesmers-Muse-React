@@ -68,13 +68,13 @@ export function Body() {
                             </p>
                             <p className='fs-4 text-info'>Follow us on social media for information on new content and
                                 events.</p>
-                            <button type='button' className='btn btn-primary m-2'>
+                            <button type='button' className='btn btn-primary m-2 opacity-100' disabled={true}>
                                 <i href='#' className="bi bi-facebook h1"></i>
                             </button>
-                            <button type='button' className='btn btn-secondary m-2'>
+                            <button type='button' className='btn btn-secondary m-2 opacity-100' disabled={true}>
                                 <i href='#' className="bi bi-instagram h1"></i>
                             </button>
-                            <button type='button' className='btn btn-dark m-2'>
+                            <button type='button' className='btn btn-dark m-2 opacity-100' disabled={true}>
                                 <i className="bi bi-twitter-x h1"></i>
                             </button>
                             <a href='mailto:info@mesmersmuse.com' className='btn btn-primary btn-lg m-2'>CONTACT US</a>

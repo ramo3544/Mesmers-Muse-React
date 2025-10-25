@@ -25,7 +25,7 @@ export function NavBar() {
                     <div className="container-fluid pb-2 pt-3">
                         <div className="container-logo">
                             <a className="navbar-brand" href="#">
-                                <img id='nav-bar-logo' className='d-inline-block align-text-top rounded' src={logo} alt="Mesmer's Muse"/>
+                                <img id='nav-bar-logo' className='d-lg-inline-block align-text-top rounded' src={logo} alt="Mesmer's Muse"/>
                             </a>
                         </div>
                         <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas"
