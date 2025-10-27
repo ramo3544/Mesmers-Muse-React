@@ -25,9 +25,11 @@ import snowFallClip from "../assets/audio/7_Snowfall_icy_clip.mp3";
 import fullBloomNMClip from "../assets/audio/8_FullBloom_nm_clip1.mp3";
 import sultryAugustNMClip from "../assets/audio/9_Sultry_nm_clip.mp3";
 import snowFallNMClip from "../assets/audio/10_Snowfall_sgl_clip.mp3"
+import suiteAnnusExpectandiAlbumCover from "../assets/album-photos/suite-annus-expectandi-album-cover.jpg";
 
 //Audio Player Component
 import AudioPlayer from "./AudioPlayer.jsx";
+
 
 export function Body() {
     const [count, setCount] = useState(0)
@@ -36,6 +38,9 @@ export function Body() {
         <>
             <div id="mists-of-avery-band-section" className='band-background container-fluid d-flex align-items-top min-vh-100'>
                 <div className="container-lg text-center">
+                    <div>
+                        <img src={suiteAnnusExpectandiAlbumCover} className="mx-auto img-thumbnail d-block w-50 pb-2" alt="Mists of Avery Band Cover"/>
+                    </div>
                     <h2 className='body-subheading mt-5'>MISTS OF AVERY</h2>
                     <p className='fs-5 text-white'>
                         Our band name refers to our love for Avery County, located in the mountains of western North Carolina, our spiritual (and soon to be our physical) home.
