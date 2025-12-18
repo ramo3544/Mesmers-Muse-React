@@ -42,16 +42,6 @@ export function Body() {
                         <img src={suiteAnnusExpectandiAlbumCover} className="mx-auto img-thumbnail d-block w-50 pb-2"
                              alt="Mists of Avery Band Cover"/>
                     </div>
-                    <div className="alert alert-success fade show mt-4" role="alert">
-                        <h3 className="alert-heading">ALBUM DROP PARTY!</h3>
-                        <h5>@Petty Thieves Brewing Co.</h5>
-                        <p>413 Dalton Ave Suite B, Charlotte, NC 28206</p>
-                        <>Next Sunday Nov. 9th @ Noon</>
-                        <hr/>
-                        <p className="mb-0">1st Beverage Of Your Choice (Bar or Food truck) ON US!</p>
-                        <p> LUCKY DUCK Food Truck serving lunch (umm...NOT ON US!)</p>
-                        <button type="button" className="btn-close alert-dismissible position-absolute top-0 end-0 me-3 mt-2" data-bs-dismiss="alert" aria-label="Close"></button>
-                    </div>
                     <h2 className='body-subheading mt-5'>MISTS OF AVERY</h2>
                     <p className='fs-5 text-white'>
                         Our band name refers to our love for Avery County, located in the mountains of western North
