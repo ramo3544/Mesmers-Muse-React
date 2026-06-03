@@ -12,7 +12,7 @@ import fullBloomCrossnore from "../assets/album-photos/full-bloom-album-photo.JP
 import sultryAugustNight from "../assets/album-photos/sultry-august-night.jpg";
 import fallArrivesFallLeaves from "../assets/album-photos/fall-arrives.jpg";
 import snowfallInNewlandNew from "../assets/album-photos/snowfall-in-newland.jpg";
-import tidalLogo from "../assets/tidal-icon-transparent.png";
+import youtubeMusicIcon from "../assets/youtube-music-icon.svg";
 
 //Audio clips
 import prelude_clip from "../assets/audio/1_Prelude_clip.mp3";
@@ -43,46 +43,46 @@ export function Body() {
                              alt="Mists of Avery Band Cover"/>
                     </div>
                     <h2 className='body-subheading mt-5'>MISTS OF AVERY</h2>
-                    <p className='fs-5 text-white'>
-                        Our band name refers to our love for Avery County, located in the mountains of western North
-                        Carolina, our spiritual (and soon to be our physical) home.
-                        Avery County features rugged mountain terrain, including Grandfather Mountain, and has the
-                        highest average elevation of any U.S. county east of the Mississippi River.
-                        Often referred to as “the Highlands,” the area has deep Scots-Irish roots dating back to the
-                        early settlers from Great Britain.
-                        Due to this rich musical heritage, the Appalachian Mountains was the birthplace of today’s
-                        bluegrass, folk, blues, and country music genres.
-                        Mists of Avery offers a modern melting pot of different genres and styles, featuring at times
-                        the folk instruments and drone structures of Celtic music, but also incorporating influences of
-                        jazz and popular music.
-                        Many of our creations invoke the flavors, personalities, and names of Avery County’s lovely
-                        communities, including Elk Park, Crossnore, and Newland, for example.
-                    </p>
-                    <h3 className='body-subheading mt-5 pb-lg-5'>SUITE: ANNUS EXPECTANDI</h3>
-                    <p className='fs-5 text-white pb-5'>
-                        Our first album is entitled SUITE: ANNUS EXPECTANDUS, which is Latin for “year of waiting.”
-                        It is a refreshing stroll through the seasons of the year using reflective music and, in some
-                        cases, the sounds of nature, to invite the listener to join the journey.
-                        The album cover features the ancient Latin adage, “Tempora mutantur, nos et mutamur in illis,”
-                        which translates as “Seasons change, and we also change with them.”
-                    </p>
-                    <p className='fs-5 text-white pb-5'>
-                        “Prelude: Tempora Mutantur” features Celtic-influenced melodies, instruments, and percussion to
-                        convey the awe-inspiring grandeur of the mountains.
-                        “Welcome Spring” employs a four-note chord provided by a set of backyard windchimes, adding and
-                        then removing layer upon layer based on those four notes.
-                        “Cloudburst in Elk Park” and “Full Bloom: Crossnore” use natural sounds of a thunderstorm and
-                        bird songs, respectively, as a canvas upon which the songs are painted.
-                        “Sultry August Night” features the counter-rhythmic ostinato of Appalachian cicadas and tree
-                        frogs to underpin a lush callback to jazz combos of the late 50’s and early 60’s.
-                        “Fall Arrives / Fall Leaves” offers the sounds of wind rustling though falling leaves to remind
-                        the listener of the beauty and melancholy of the trees’ last burst of glory for the year.
-                        “Christmas in Newland / Icy Branches” is nostalgic and childlike by design, inviting the
-                        listener to recall that “best snowfall ever” when they were a child, with all its wonder,
-                        delight, and joy.
-                        The journey concludes with a walk through an ice-glazed forest, finishing with the subtle
-                        windchimes’ reminder that the cycle will soon begin anew.
-                    </p>
+                    <div>
+                        <p className='fs-5 text-white'>
+                            Mists Of Avery is the artist name of its creator, Mitch Hunter. 
+                            Mitch grew up in Lancaster SC, a town 30 miles south of Charlotte NC. 
+                            Music has always been a vital part of Mitch's life, dating back to piano lessons beginning at age 7, 
+                            the composition of his first piano piece entitled “Destiny” at age 12 (an ironic foretelling of things to come),
+                            and attaining first chair trombone in Lancaster High School band. 
+                            After earning a bachelor's degree in music from Furman University and master's degree in music from University of Tennessee, 
+                            Mitch spent the majority of his life working in church music, as well as providing guitar, keys, and vocals in various cover bands through the years. 
+                            The "Avery" in the artist name refers to his affection for Avery County in the mountains of North Carolina (his beloved “home away from home”). 
+                            Often referred to as “the Highlands,” the area has deep Scots-Irish roots dating back to its earliest settlers, who brought their mandolins, fiddles, dulcimers and more from their various homelands. 
+                            Due to this rich musical heritage, the Appalachian Mountains are considered the birthplace of today’s bluegrass, folk, blues, and country music genres. 
+                            Mists of Avery offers a modern melting pot of different genres and styles, featuring at times the folk instruments and drone notes of Celtic music, but also incorporating influences of jazz and popular music. 
+                            Many of the compositions invoke the flavors, personalities, and even names of Avery County’s charming communities, including Elk Park, Crossnore, and Newland.
+                            Mitch Hunter and his wife Kim currently make their home in Concord NC, frequently vacationing at various rental cabins and cottages in Avery and Watauga counties. They look forward to a permanent relocation to Avery County in summer of 2028.
+                        </p>
+                        <h3 className='body-subheading mt-5 pb-lg-5'>SUITE: ANNUS EXPECTANDI</h3>
+                        <p className='fs-5 text-white pb-5'>
+                            Mists of Avery’s debut album is entitled SUITE: ANNUS EXPECTANDUS, which is Latin for “year of waiting.” 
+                            It is a refreshing stroll through the seasons of the year using reflective music, and in some cases the sounds of nature, to invite the listener to join the journey. 
+                            The spirit and heart of the album is best expressed in the Latin proverb, “Tempora mutantur, nos et mutamur in illis,” which translates as “Seasons change, and we also change with them.”
+                        </p>
+                        <div>
+                            <ul className='fs-5 text-white text-start'>
+                                <li>“Prelude: Tempora Mutantur” features Celtic-influenced melodies and instrumentation including mandolin, low “drone” notes, and percussion to depict the inspiring grandeur of the mountains.<br/><br/></li>
+                                <li>“Welcome Spring” employs a four-note chord provided by a set of backyard windchimes, adding and then removing musical layers based on those four notes.<br/><br/> </li>
+                                <li>“Cloudburst in Elk Park” and “Full Bloom: Crossnore” use natural sounds of a thunderstorm and bird songs, respectively, as a canvas upon which the songs are painted.<br/><br/></li>
+                                <li>“Sultry August Night” features the counter-rhythmic ostinato of Appalachian cicadas and tree frogs to underpin a lush callback to jazz combos of the late 50’s and early 60’s.<br/><br/></li>
+                                <li>“Fall Arrives/ Fall Leaves” offers the sounds of wind rustling though falling leaves to remind the listener of the beauty and melancholy of the trees’ last burst of glory for the year.<br/><br/></li>
+                                <li>“Christmas in Newland/ Icy Branches” is nostalgic and childlike by design, inviting the listener to recall (or imagine) that “best snowfall ever” when they were a child, with all its wonder, delight, and joy.<br/><br/></li>
+                                <li>The journey concludes with a walk through an ice-glazed forest (with the “ice” depicted via percussive instruments), finishing with the subtle windchimes’ reminder that the cycle will soon begin anew.<br/><br/></li>
+                            </ul> 
+                        </div>
+                    </div>
+                    <div>
+                        <h5 className='body-subheading mt-5 pb-lg-5'>MISTS OF AVERY'S "SUITE: ANNUS EXPECTANDI"<br/><br/>
+                            (Released 2025 By Mesmer's Muse Records)<br/><br/>
+                            Listen to Preview Here!
+                        </h5>
+                    </div>
                     <div className='container-fluid text-center'>
                         <div className='align-items-start'>
                             <div className='row justify-content-center'>
@@ -144,8 +144,12 @@ export function Body() {
                             <i className="bi bi-amazon h1"></i>
                         </button>
                         <button type='button' className='btn btn-secondary m-2 opacity-100' disabled={true}>
-                            <img alt='tidal-logo' className='' width='40' height='50' src={tidalLogo}></img>
+                            <img alt='tidal-logo' className='' width='40' height='50' src={youtubeMusicIcon}></img>
                         </button>
+                    </div>
+                    <div className='container-fluid text-center'>
+                        <h3 className='body-subheading mt-5 pb-lg-5'>For more info on Mesmer's Muse Records</h3>
+                        <h4 className='body-subheading'>Click Here</h4>
                     </div>
                 </div>
             </div>

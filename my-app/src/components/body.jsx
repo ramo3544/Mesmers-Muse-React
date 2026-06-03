@@ -61,25 +61,15 @@ export function Body() {
                             <p className='body-subheading'>Mesmer's Muse Records - Bringing Big Ideas To Life, One Muse At A Time</p>
                         </div>
                         <div>
-                            <h2 className='body-subheading'>Get Connected!</h2>
+                            <h2 className='body-subheading'>What About Your Muse?</h2>
                             <p className='fs-5 text-white'>
-                                Join our community to share your work, collaborate with us, and stay updated on the
-                                latest updates in our growing community.
+                                If you are a music creator and need an outlet to expose your art to a greater audience, we can help. 
+                                Reach out to us and let’s dream together!
                             </p>
-                            <p className='fs-4 text-info'>Follow us on social media for information on new content and
-                                events.</p>
-                            <button type='button' className='btn btn-primary m-2 opacity-100' disabled={true}>
-                                <i href='#' className="bi bi-facebook h1"></i>
-                            </button>
-                            <button type='button' className='btn btn-secondary m-2 opacity-100' disabled={true}>
-                                <i href='#' className="bi bi-instagram h1"></i>
-                            </button>
-                            <button type='button' className='btn btn-dark m-2 opacity-100' disabled={true}>
-                                <i className="bi bi-twitter-x h1"></i>
-                            </button>
                             <a href='mailto:info@mesmersmuse.com' className='btn btn-primary btn-lg m-2'>CONTACT US</a>
                         </div>
-                        <h2 className='h1 text-white pt-5 pb-3'>Coming 11/8/2025</h2>
+                        <h2 className='h1 text-white pt-5 pb-3'>Recently Released</h2>
+                        <h3 className='h3 text-white'>On all streaming platforms</h3>
                         <div id="carouselExampleCaptions" className="carousel slide">
                             <div className="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
@@ -89,7 +79,7 @@ export function Body() {
                             <div className="carousel-inner">
                                 <Link to='/mists-of-avery/#mists-of-avery-band-section' className="text-decoration-none text-dark">
                                     <div className="carousel-item active">
-                                        <img src={suiteAnnusExpectandiAlbumCover} className="mx-auto img-thumbnail d-block w-75 pb-2" alt="Mists of Avery Band Cover"/>
+                                        <img src={suiteAnnusExpectandiAlbumCover} className="mx-auto img-thumbnail d-block w-50 pb-2" alt="Mists of Avery Band Cover"/>
                                         <div className="carousel-caption d-none d-md-block">
                                             <h5>Mists of Avery</h5>
                                         </div>
