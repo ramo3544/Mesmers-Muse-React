@@ -77,7 +77,7 @@ export function Body() {
                                 </button>
                             </div>
                             <div className="carousel-inner">
-                                <Link to='/mists-of-avery/#mists-of-avery-band-section' className="text-decoration-none text-dark">
+                                <Link to='/mists-of-avery' className="text-decoration-none text-dark">
                                     <div className="carousel-item active">
                                         <img src={suiteAnnusExpectandiAlbumCover} className="mx-auto img-thumbnail d-block w-50 pb-2" alt="Mists of Avery Band Cover"/>
                                         <div className="carousel-caption d-none d-md-block">

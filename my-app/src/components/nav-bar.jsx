@@ -24,9 +24,9 @@ export function NavBar() {
                 <nav className="navbar bg-body-tertiary fixed-top object-fit-cover" data-bs-theme='dark'>
                     <div className="container-fluid pb-2 pt-3">
                         <div className="container-logo">
-                            <a className="navbar-brand" href="#">
+                            <Link className="navbar-brand" to='/mesmers-muse'>
                                 <img id='nav-bar-logo' className='d-lg-inline-block align-text-top rounded' src={logo} alt="Mesmer's Muse"/>
-                            </a>
+                            </Link>
                         </div>
                         <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                                 data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
@@ -43,10 +43,10 @@ export function NavBar() {
                             <div className="offcanvas-body">
                                 <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                                     <li className="nav-item" onClick={collapseNavbar}>
-                                        <Link className="nav-link active" aria-current="page" to='/#about-us'>About Us</Link>
+                                        <Link className="nav-link active" aria-current="page" to='/mesmers-muse'>About Us</Link>
                                     </li>
                                     <li className="nav-item" onClick={collapseNavbar}>
-                                        <Link className="nav-link" to='/#get-connected'>Get Connected!</Link>
+                                        <Link className="nav-link disabled" to='/mesmers-muse'>Get Connected!</Link>
                                     </li>
                                     <li className="nav-item dropdown">
                                         <Link className="nav-link dropdown-toggle" to='#' role="button"
@@ -54,7 +54,7 @@ export function NavBar() {
                                             Artists Label
                                         </Link>
                                         <ul className="dropdown-menu">
-                                            <li onClick={collapseNavbar}><Link className="dropdown-item" to='/mists-of-avery/#mists-of-avery-band-section'>Mists Of Avery</Link></li>
+                                            <li onClick={collapseNavbar}><Link className="dropdown-item" to='/mists-of-avery'>Mists Of Avery</Link></li>
                                             <li>
                                                 <hr className="dropdown-divider"/>
                                             </li>

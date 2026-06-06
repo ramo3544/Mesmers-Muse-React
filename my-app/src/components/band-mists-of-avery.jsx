@@ -3,6 +3,7 @@ import '../stylesheets/band-mists-of-avery.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap-icons/font/bootstrap-icons.css'
+import { HashLink as Link } from 'react-router-hash-link';
 
 // Album cover and photos
 import albumCover from "../assets/album-photos/suite-annus-expectandi-album-cover.jpg";
@@ -59,8 +60,7 @@ export function Body() {
                             Many of the compositions invoke the flavors, personalities, and even names of Avery County’s charming communities, including Elk Park, Crossnore, and Newland.
                             Mitch Hunter and his wife Kim currently make their home in Concord NC, frequently vacationing at various rental cabins and cottages in Avery and Watauga counties. They look forward to a permanent relocation to Avery County in summer of 2028.
                         </p>
-                        <h3 className='body-subheading mt-5 pb-lg-5'>SUITE: ANNUS EXPECTANDI</h3>
-                        <p className='fs-5 text-white pb-5'>
+                        <h3 id="suite-heading" className='body-subheading mt-5 pb-lg-5'>SUITE: ANNUS EXPECTANDI</h3>                        <p className='fs-5 text-white pb-5'>
                             Mists of Avery’s debut album is entitled SUITE: ANNUS EXPECTANDUS, which is Latin for “year of waiting.” 
                             It is a refreshing stroll through the seasons of the year using reflective music, and in some cases the sounds of nature, to invite the listener to join the journey. 
                             The spirit and heart of the album is best expressed in the Latin proverb, “Tempora mutantur, nos et mutamur in illis,” which translates as “Seasons change, and we also change with them.”
@@ -72,16 +72,13 @@ export function Body() {
                                 <li>“Cloudburst in Elk Park” and “Full Bloom: Crossnore” use natural sounds of a thunderstorm and bird songs, respectively, as a canvas upon which the songs are painted.<br/><br/></li>
                                 <li>“Sultry August Night” features the counter-rhythmic ostinato of Appalachian cicadas and tree frogs to underpin a lush callback to jazz combos of the late 50’s and early 60’s.<br/><br/></li>
                                 <li>“Fall Arrives/ Fall Leaves” offers the sounds of wind rustling though falling leaves to remind the listener of the beauty and melancholy of the trees’ last burst of glory for the year.<br/><br/></li>
-                                <li>“Christmas in Newland/ Icy Branches” is nostalgic and childlike by design, inviting the listener to recall (or imagine) that “best snowfall ever” when they were a child, with all its wonder, delight, and joy.<br/><br/></li>
-                                <li>The journey concludes with a walk through an ice-glazed forest (with the “ice” depicted via percussive instruments), finishing with the subtle windchimes’ reminder that the cycle will soon begin anew.<br/><br/></li>
+                                <li>“Christmas in Newland” is nostalgic and childlike by design, inviting the listener to recall (or imagine) that “best snowfall ever” when they were a child, with all its wonder, delight, and joy.<br/><br/></li>
+                                <li>“Icy Branches” concludes the journey with a walk through an ice-glazed forest (with the “ice” depicted via percussive instruments), finishing with the subtle windchimes’ reminder that the cycle will soon begin anew.<br/><br/></li>
                             </ul> 
                         </div>
                     </div>
                     <div>
-                        <h5 className='body-subheading mt-5 pb-lg-5'>MISTS OF AVERY'S "SUITE: ANNUS EXPECTANDI"<br/><br/>
-                            (Released 2025 By Mesmer's Muse Records)<br/><br/>
-                            Listen to Preview Here!
-                        </h5>
+                        <h5 className='body-subheading mt-5 pb-lg-5'>Listen to Previews!<br/></h5>
                     </div>
                     <div className='container-fluid text-center'>
                         <div className='align-items-start'>
@@ -134,22 +131,23 @@ export function Body() {
                     <div className='container-fluid text-center'>
                         <h2 className='body-subheading h2 text-white mt-5 pb-3'>Available On All Streaming Platforms
                             Including:</h2>
-                        <button type='button' className='btn btn-success btn-lg m-2 opacity-100' disabled={true}>
+                        <a className='btn btn-success btn-lg m-2 opacity-100' href="https://open.spotify.com/album/6mkGxHdfhvzygzmknJEd6w?si=dl07zMOZTqmmuUH0_w8X6A" target='_blank' rel='noopener noreferrer' aria-label='Open Spotify album'>
                             <i className="bi bi-spotify h1"></i>
-                        </button>
-                        <button type='button' className='btn btn-light btn-lg m-2 opacity-100' disabled={true}>
+                        </a>
+                        <a className='btn btn-light btn-lg m-2 opacity-100' href="https://music.apple.com/us/album/suite-annus-expectandi/6772058026" target='_blank' rel='noopener noreferrer' aria-label='Open Apple Music album'>
                             <i className="bi bi-apple h1"></i>
-                        </button>
-                        <button type='button' className='btn btn-info btn-lg m-2 opacity-100' disabled={true}>
+                        </a>
+                        <a className='btn btn-info btn-lg m-2 opacity-100' href="https://music.amazon.com/albums/B0GWTGLHJC?ref=dm_sh_d893-c17c-59dc-19a3-1827b" target='_blank' rel='noopener noreferrer' aria-label='Open Amazon Music album'>
                             <i className="bi bi-amazon h1"></i>
-                        </button>
-                        <button type='button' className='btn btn-secondary m-2 opacity-100' disabled={true}>
-                            <img alt='tidal-logo' className='' width='40' height='50' src={youtubeMusicIcon}></img>
-                        </button>
+                        </a>
+                        <a className='btn btn-secondary m-2 opacity-100' href="https://music.youtube.com/playlist?list=OLAK5uy_lMkpcLVh8G0U4Vf74u1EW6ICI_ppwmU50&si=dBWDWSDYrSXkJBHY" target='_blank' rel='noopener noreferrer' aria-label='Open YouTube Music playlist'>
+                            <img alt='tidal-logo' className='' width='40' height='50' src={youtubeMusicIcon} />
+                        </a>
                     </div>
                     <div className='container-fluid text-center'>
-                        <h3 className='body-subheading mt-5 pb-lg-5'>For more info on Mesmer's Muse Records</h3>
-                        <h4 className='body-subheading'>Click Here</h4>
+                        <h3 className='body-subheading mt-5 pb-lg-5'>For more info on Mesmer's Muse Records&nbsp;   
+                            <Link to='/mesmers-muse' target='_blank' rel='noopener noreferrer'>Click Here</Link>
+                        </h3>
                     </div>
                 </div>
             </div>

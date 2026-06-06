@@ -13,6 +13,7 @@ function App() {
           <Routes>
               <Route element={<Layout/>}>
                 <Route path="/" element={<MistsOfAvery/>}/>
+                <Route path="/mists-of-avery" element={<MistsOfAvery/>}/>
                 <Route path="/mesmers-muse" element={<MesmersMuse/>}/>
               </Route>
           </Routes>

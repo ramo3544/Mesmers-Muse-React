@@ -44,6 +44,11 @@
     filter: brightness(0.6);
 }
 
+#suite-heading {
+  padding-bottom: 0.5rem !important;
+  margin-bottom: 0.25rem;
+}
+
 /*.tidal-button {*/
 /*    width: 3em;*/
 /*    height: 3em;*/
